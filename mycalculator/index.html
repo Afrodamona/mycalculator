@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+   
+    <div class="div-body">
+        <div class="calculator">
+            <div class="top-items">
+                <i class="time">04 <span class="active-time">:</span> 22</i>
+                <div class="shapes">
+                    <div class="dash"></div>
+                    <div class="dot"></div>
+                </div>
+                <div class="bar-wifi">
+                    <i class="fa fa-battery-half"></i>
+                    <i class="fas fa-wifi"></i>
+                </div>
+            </div>
+            <input type="number" id="display" value="0">
+            <div class="btn-container">
+                <div class="operators">
+                    <button class="btn">AC</button>
+                    <button class="btn">+/-</button>
+                    <button class="btn">%</button>
+                    <button class="btn">/</button>
+                </div>
+                <div class="num-op">
+                    <div class="numbers">
+                        <button class="btn1" value="7" onclick="dis('7')">7</button>
+                        <button class="btn1">8</button>
+                        <button class="btn1">9</button> 
+                        <button class="btn1">4</button> 
+                        <button class="btn1">5</button> 
+                        <button class="btn1">6</button> 
+                        <button class="btn1">1</button>
+                        <button class="btn1">2</button>
+                        <button class="btn1">3</button>
+                        <button class="btn1">0</button>
+                        <button class="btn btn2">.</button>
+                        <button class="btn btn2">+</button>
+                    </div>
+                    <div class="left-op">
+                        <button class="btn" value="x">x</i></button>
+                        <button class="btn" value="-">-</button>
+                        <button class="btn btn3" value="=">=</button>
+                    </div>
+                </div>  
+            </div>
+
+            <div class="bottom-icons">
+                <i class="fas fa-bars icon"></i>
+                <i class="fas fa-home icon2"></i>
+                <i class="fas fa-step-backward icon"></i>
+            </div>
+        </div>
+        <div class="left-div">
+            <div class="inside-circle"></div>
+            <div class="inside-circle"></div> 
+            <div class="inside-circle"></div>
+            <div class="inside-circle"></div>
+        </div>
+    </div>
+    
+    <script src="./app.js"></script>
+</body>
+
+</html>
